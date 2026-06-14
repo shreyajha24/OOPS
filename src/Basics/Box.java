@@ -4,6 +4,9 @@ public class Box {
     double l;
     double h;
     double w;
+    static void greeting(){
+        System.out.println("Hello World");
+    }
     Box(){
         this.h=-1;
         this.l=-1;
